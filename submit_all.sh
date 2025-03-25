@@ -10,7 +10,7 @@
 #SBATCH --time 0-23:59:00 							# Run time (days-hh:mm:ss)
 #SBATCH --mail-type=ALL 							# Send emails on start, end and failure
 #SBATCH --mail-user=Danielle.Demateis@colostate.edu # Address for sending emails
-#SBATCH --array=0-80 
+#SBATCH --array=0-971 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 
 # load R
@@ -18,5 +18,5 @@ module load R/4.4.0
 
 # Launch a serial job
 echo "Starting @ "`date`
-Rscript simulation_all_models_HPC.R $SLURM_ARRAY_TASK_ID
+Rscript simulation_script.R $SLURM_ARRAY_TASK_ID
 echo "Completed @ "`date`
