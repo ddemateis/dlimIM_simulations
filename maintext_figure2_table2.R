@@ -1,3 +1,5 @@
+#this file is to be used with the output from analysis_script_CO.R
+
 library(dplyr)
 library(xtable)
 library(ggplot2)
@@ -15,6 +17,10 @@ for(file in files){
                         MCMC_samps$chain1[attr(MCMC_samps, "burnin"):nrow(MCMC_samps$chain1),])
   rm(MCMC_samps)
 }
+
+niter <- 50000
+burnin <- 30000
+inf_idx <- seq(burnin, niter, thin = 1)
 
                                 ## Table 2 ##
 
@@ -60,7 +66,7 @@ for(file in files[-1]){
 #predict
 m_star <- seq(15,80,1)
 DLIM_pred <- predict(linear_fit, newdata = m_star)
-pred <- pred_m(MCMC_samples, burnin = 30000, thin = 1, m_star = m_star/100)
+pred <- pred_m(MCMC_samples, sel = inf_idx, m_star = m_star/100)
 
 #cumulative plot
 cumul_df <- data.frame(Effect = c(t(pred$betas_cumul), t(DLIM_pred$est_dlim$betas_cumul)),
