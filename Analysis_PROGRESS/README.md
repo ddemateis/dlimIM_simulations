@@ -1,0 +1,3 @@
+# Data Sharing for PROGRESS study data
+
+Data Sharing Summary for Research Publications: For internal collaborators, access to PROGRESS study data requires completion of CITI training in Research Ethics, submission of a data request form, and approval by the PROGRESS Executive Committee (Drs. Megan Horton, Maria Jose Rosa, and Martha Maria Tellez-Rojo). External researchers must also complete a Data Use Agreement, facilitated by Dr. Ilene Wilets and Holly Miller. Approved data requests are provided via secure OneDrive folders (https://mtsinai-my.sharepoint.com/), managed by data managers Nia McRae and Inessa Lopez.
