@@ -1,5 +1,5 @@
 # dlimIM_simulations
-The repository contains scripts to recreate the simulations and analyses in "Distributed Lag Interaction Model with Index Modification" in _Biostatistics_. 
+The repository contains scripts to recreate the simulations and analyses in "Distributed Lag Interaction Model with Index Modification" in Press in _Biostatistics_ ([Demateis et al.](https://arxiv.org/abs/2504.06363)). 
 
 There are 3 folders, one containing simulation scripts and the others containing analysis scripts (one for each respective analysis).  
 Information on data sharing and processing is available in the README files in the Analysis_CO/DataPrep and Analysis_PROGRESS folders.
