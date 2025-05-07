@@ -1,6 +1,6 @@
 # Data Sharing for Colorado Data
 
-All data for the Colorado analysis is publicly available. Some data requires a data use agreement and IRB approval. Below is the infromation on each data soure and instructions for data processing.
+All data for the Colorado analysis is publicly available. Some data requires a data use agreement and IRB approval. Below is the information on each data soure and instructions for data processing.
 
 All data processing scripts are in the folder Analysis_CO/DataPrep.
 
