@@ -16,7 +16,7 @@ Information on obtaining data and creating the analysis file is in the folder An
 
 ## Analysis_PROGRESS folder:
 
-First, run analysis_script_PROGRESS.R. The rest of the files in this folder are used to create figures/tables for this simulation. 
+See information in the README of this folder on obtaining data. First, run analysis_script_PROGRESS.R. The rest of the files in this folder are used to create figures/tables for this simulation. 
 
 Information on data sharing for the PROGESS data is available in the README file in the folder Analysis_PROGRESS.
 
