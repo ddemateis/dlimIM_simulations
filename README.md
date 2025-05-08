@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/841635882.svg)](https://doi.org/10.5281/zenodo.15361932)
+
 # dlimIM_simulations
 The repository contains scripts to recreate the simulations and analyses in "Distributed Lag Interaction Model with Index Modification" in press in _Biostatistics_ ([Demateis et al.](https://arxiv.org/abs/2504.06363)). 
 
